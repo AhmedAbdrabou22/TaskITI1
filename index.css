@@ -1,0 +1,110 @@
+
+.main{
+    position: relative;
+    height: 92.7vh;
+    width:100%;
+    background-size: cover;
+    background-image:url(images/3.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.main .mainChild{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+.main .mainChild > button{
+    border:none;
+    outline:none;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border:1px solid white;
+    width:250px;
+}
+.A , .B , .C{
+    margin-top:150px;
+}
+
+.social{
+    position: relative;
+}
+.social .links{
+    z-index: -1;
+    position: absolute;
+    top:90%;
+    transform: translateY(100%);
+    background-color:tomato;
+    width:100%;
+    padding:15px;
+    font-size: 25px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transition: 0.1s all ease;
+    -webkit-transition: 0.1s all ease;
+    -moz-transition: 0.1s all ease;
+    -ms-transition: 0.1s all ease;
+    -o-transition: 0.1s all ease;
+}
+.social .links i{
+    margin: 10px;
+    color:white;
+}
+.social:hover .links{
+    transform: translateY(-54%);
+    z-index: 1;
+    -webkit-transform: translateY(-54%);
+    -moz-transform: translateY(-54%);
+    -ms-transform: translateY(-54%);
+    -o-transform: translateY(-54%);
+}
+
+.s{
+    opacity: 0.2;
+}
+.s:hover{
+    opacity:1;
+}
+.B .card .card-body{
+    display: none;
+}
+
+.C i{
+    font-size: 25px;
+}
+.C .fa i{
+    background-color: crimson;
+    color:white;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    text-align: center;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.C p{
+    line-height: 200%;
+}
+.dd{
+    width:100%;
+}
